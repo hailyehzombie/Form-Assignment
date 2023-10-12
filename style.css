@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main{
+    background-color: rgb(97, 147, 145);
+    height: 100vh;
+    padding: calc(100vh - 794px) 0;
+}
+
+form{
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+.main-form{
+    width: 80%;
+    margin: 0 auto;
+    /* background: ghostwhite; */
+}
+
+.main-form div{
+    margin: 1rem 0;
+    text-transform: capitalize;
+    font-size: 1.125rem;
+}
+
+.main-form input{
+    line-height: 1.3rem;
+    padding-left: 0.3rem;
+}
+
+.main-form input::placeholder{
+    color: gray;
+    text-transform: capitalize;
+    letter-spacing: 0.125rem;
+}
+
+
+
+form h1{
+    background-color: rgb(216, 213, 213);
+    color: grey;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1rem 0; 
+    margin-bottom: 2rem;
+    border-radius: 2rem 2rem 0 0;
+}
+
+form label{
+    color: rgb(63, 194, 159);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.name{
+    /* background-color: red; */
+    
+}
+
+
+.first-name,
+.last-name{
+    width: 50%;
+    float: left;
+    /* background-color: red; */
+}
+
+.first-name input{
+    width: 60%;
+}
+
+.last-name input{
+    width: 60%;
+}
+
+
+.email{
+    float: left;
+    width: 100%;
+}
+
+.email input{
+    width: 85%;
+}
+
+
+
+.password,
+.confirm-password{
+    width: 50%;
+    float: left;
+}
+
+.password input{
+    width: 60%;
+}
+
+.confirm-password input{
+    width: 45%;
+}
+
+
+
+.gender,
+.hobbies{
+    width: 42%;
+    float: left;
+}
+
+.hobbies{
+    width: 58%;
+}
+
+
+
+.source-of-income,
+.range{
+    width: 50%;
+    float: left;
+}
+
+
+
+.picture,
+.age{
+    width: 50%;
+    float: left;
+}
+
+.textarea{
+    clear: both;
+    /* width:  */
+}
+
+.footer{
+    color: grey;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1rem 0; 
+    margin-bottom: 2rem;
+    background-color: rgb(216, 213, 213);
+    border-radius: 0 0 2rem 2rem ;
+    
+}
+
+.footer span{
+    text-transform: lowercase;
+    float: left;
+    padding-left: 5rem;
+    margin: 0.5rem 0;
+    font-style: italic;
+}
+
+input[type='submit']{
+    background-color: rgb(13, 169, 127);
+    padding: 0.5rem 0.8rem;
+    border: none;
+    color: whitesmoke;
+    margin-left: 22rem;
+    font-size: 1rem;
+}
+
+
